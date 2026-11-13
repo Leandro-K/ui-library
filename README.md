@@ -5,12 +5,12 @@ Nothing in it is specific to any app, so any project can use it.
 
 ## Install
 
-Load it from the jsDelivr CDN (pin a version tag):
+Load it from the jsDelivr CDN (use `@main`, or pin a commit hash for a fixed version):
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Leandro-K/ui-library@v1.0.0/ui.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Leandro-K/ui-library@main/ui.css">
 <script type="module">
-  import { FormValidator, rules } from "https://cdn.jsdelivr.net/gh/Leandro-K/ui-library@v1.0.0/ui.js";
+  import { FormValidator, rules } from "https://cdn.jsdelivr.net/gh/Leandro-K/ui-library@main/ui.js";
 </script>
 ```
 
@@ -49,7 +49,7 @@ Colors, spacing and radius are CSS variables (`--ui-*`) on `:root`, so a theme c
 An ES module. Import only what you need:
 
 ```js
-import { el, button, badge, createStore, uid, dates, rules, FormValidator, Tabs, renderTable } from "https://cdn.jsdelivr.net/gh/Leandro-K/ui-library@v1.0.0/ui.js";
+import { el, button, badge, createStore, uid, dates, rules, FormValidator, Tabs, renderTable } from "https://cdn.jsdelivr.net/gh/Leandro-K/ui-library@main/ui.js";
 ```
 
 | Export | What it does |
